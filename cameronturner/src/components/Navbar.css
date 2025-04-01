@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    opacity: .75;
+    position: sticky;
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.3s ease, font-size 0.3s ease , font-weight 0.3s ease;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    opacity: 1;
+}
+
+.navbar-item a:hover {
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 1.5em;
+}

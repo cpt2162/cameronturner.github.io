@@ -1,0 +1,21 @@
+:root{
+  --primary-color: #B06707;
+  --secondary-color: #07A5B0;
+  --background-color: #f0f0f0;
+  --text-color: #222222;
+}
+
+.dark-mode{
+  --primary-color: #07A5B0;
+  --secondary-color: #B06707;
+  --background-color: #333;
+  --text-color: #f0f0f0;
+}
+
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+

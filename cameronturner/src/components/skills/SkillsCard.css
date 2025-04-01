@@ -1,0 +1,20 @@
+.skills-card {
+    border: 1px solid var(--text-color);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.2em;
+}
+
+.list-item {
+    padding: 8px 0;
+    /* border-bottom: 1px solid var(--text-color); */
+    color: var(--text-color);
+}
