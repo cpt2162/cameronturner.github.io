@@ -4,6 +4,7 @@
   justify-content: center;
   padding: 50px;
   width: 50%;
+
 }
 
 .about-container img {
@@ -17,6 +18,9 @@
   font-size: 1.3em;
   color: var(--text-color);
   text-align: center;
-  margin: 0;
-  padding: 0;
+  border: 1px solid var(--text-color);
+  border-radius: 8px;
+  background-color: white;
+  margin-inline-start: 0px;
+  margin-block-start: 0px;
 }

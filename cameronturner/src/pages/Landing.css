@@ -1,8 +1,33 @@
 .landing-page{
     display: flex;
-    width: 100%;
     flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    background-color: var(--background-color)
+    flex-grow: 1;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center; /* Center the overlay content */
+    align-items: center; /* Center the overlay content vertically */    
+    z-index: 1; /* Ensure it is behind the text */
+    height: 80vh;
+    background: url(../assets/cube.png) no-repeat center center/cover; /* Background image for the landing page */
+}
+
+.title-container h1{
+    font-size: 4em;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title-container h3{
+    font-size: 1.45em;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 120px;
 }

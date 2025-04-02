@@ -1,8 +1,8 @@
 :root{
   --primary-color: #B06707;
   --secondary-color: #07A5B0;
-  --background-color: #f0f0f0;
-  --text-color: #222222;
+  --background-color: #383836;
+  --text-color: white;
 }
 
 .dark-mode{

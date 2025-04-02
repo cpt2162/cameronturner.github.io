@@ -1,14 +1,21 @@
 
 .hero{
-    background: url(../assets/hero.jpg) no-repeat center center/cover;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-attachment: fixed;
     background-position: center;
     width: 100%;
-    height: 50vh;
+    height: 35vh;
+}
+
+.hero-overlay {
+    /* Semi-transparent overlay for better text visibility */
+    /* position: relative; */
+    display: flex;
+    flex-direction: column; /* Allow stacking of content */
+    justify-content: center; /* Center the overlay content */
+    align-items: center; /* Center the overlay content vertically */    
+    z-index: 1; /* Ensure it is behind the text */
+    height: 35vh;
 }
 
 .hero h1{

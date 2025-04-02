@@ -6,8 +6,10 @@ const Hero = () => {
 
     return (
         <div className="hero">
-            <h1 className="hero-title">Cameron Turner</h1>
-            <h3 className="hero-subtitle">Full Stack Developer</h3>
+            <div className='hero-overlay'>
+                <h1 className="hero-title">Cameron Turner</h1>
+                <h3 className="hero-subtitle">Full Stack Developer</h3>
+            </div>
         </div>
     );
 };
